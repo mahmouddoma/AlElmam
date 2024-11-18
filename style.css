@@ -763,3 +763,38 @@ p {
     font-size: 20px; /* Ensure readability on medium and large screens */
   }
 }
+.mission-container {
+  display: inline-block;
+  background-color: #7f3d56;
+  color: #f8d769;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 56px;
+  padding: 10px 20px;
+  position: relative;
+  width: 15%;
+}
+
+.mission-container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 10px;
+  background-color: #d08d45; /* Adjust the color */
+}
+
+.mission-text {
+  font-family: "Arial", sans-serif; /* Adjust font as needed */
+  font-size: 24px; /* Adjust size */
+  display: block;
+  text-align: center;
+}
+
+.sub-text {
+  font-family: "Arial", sans-serif; /* Adjust font as needed */
+  font-size: 16px; /* Adjust size */
+  text-align: center;
+  color: #f8d769;
+  margin-top: 5px;
+}
