@@ -798,3 +798,6 @@ p {
   color: #f8d769;
   margin-top: 5px;
 }
+body > div > div.portfolio-footer > div > a {
+  font-size: 19px;
+}
