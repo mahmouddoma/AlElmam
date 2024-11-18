@@ -712,7 +712,7 @@ p {
 }
 @media only screen and (min-width: 768px) {
   #values-dosc > div > div > div {
-    left: 355px !important;
+    left: 340px !important;
   }
 }
 @media (min-width: 767px) {
