@@ -531,7 +531,10 @@ p {
     transform: translateX(-50%);
   }
   #details .container-fluid {
-    padding: 10px;
+    padding: 10px !important;
+    text-align: center;
+    justify-content: center;
+    display: flex;
   }
 
   #details img {
@@ -696,12 +699,65 @@ p {
   }
 }
 @media (max-width: 767px) {
+  .special-responsive {
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center-align content */
+    padding: 10px;
+  }
+
+  .special-text {
+    font-size: 16px;
+    text-align: center; /* Center-align text */
+    margin: 10px 0;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .special-highlight {
+    font-size: 18px;
+    color: #e19a49;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .special-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .special-right,
+  .special-left {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .special-left {
+    direction: ltr !important;
+  }
+  .image-service {
+    width: 30% !important;
+  }
+  #customers-services > div > div:nth-child(1) {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+@media (max-width: 767px) {
   .about-us h2 {
     font-size: 30px; /* Adjust font size on smaller screens */
   }
 
   .about-us .row {
     text-align: center; /* Center align content on small screens */
+  }
+  body > div > div.portfolio-footer > div > a {
+    font-size: 10px !important;
+  }
+  #customers-services > div > div:nth-child(2) > p:nth-child(4) {
+    margin-bottom: 45px !important;
   }
 }
 #our-vesion .img-fluid {
